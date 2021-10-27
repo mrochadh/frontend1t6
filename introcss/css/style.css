@@ -1,0 +1,28 @@
+/*prevalece porque o id é mais específico que a classe*/
+#high {
+  color: red;
+  background-color: black;
+}
+
+/*prevalece porque a classe é mais específica que o elemento*/
+.article-title {
+  color: rgb(240, 240, 240);
+  background-color: #333;
+}
+
+h2 {
+  color: blueviolet;
+}
+/*prevalece devido à cascata*/
+h2 {
+  color: red;
+}
+
+h2 {
+  background-color: blue;
+}
+
+/*apenas os elementos a que são descendentes de um elemento footer*/
+footer a {
+  color:darkgreen;
+}
