@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: white;
+}
+
+.media-picture {
+  height: 400px;
+  background-image: url('https://picsum.photos/700/400?grayscale');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+  background-color: gray;
+  padding: 30px;
+  text-align: center;
+}
+
