@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  background-color: brown;
+  padding: 50px;
+  border: 10px rgb(90, 32, 32) solid;
+
+  height: 800px;
+
+  background-image: url('https://picsum.photos/600/800');
+}
+
+p {
+  background-color: burlywood;
+  padding: 10px 20px 50px 20px;
+  border: 5px rgb(90, 32, 32) double;
+  margin: 0 auto;
+  border-radius: 0 10px 10px 30px;
+  width: 200px;
+  text-align: center;
+}
+
+#segundo {
+  margin-top: 30px;
+}
