@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 1000px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  padding: 40px;
+  border: black 5px solid;
+  background-color: coral;
+  font-size: 70px;
+  text-align: center;
+}
+
+#mae {
+  border: 10px coral solid;
+  padding: 30px;
+  position: relative;
+}
+
+/* posiciona o elemento em relação ao body/janela
+OU
+em relação ao ancestral posicionado mais próximo
+o elemento posicionado é REMOVIDO do normal flow (fluxo normal de renderização)
+*/
+.absolute {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+

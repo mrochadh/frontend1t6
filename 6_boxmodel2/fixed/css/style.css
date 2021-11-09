@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 2000px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  padding: 40px;
+  border: black 5px solid;
+  background-color: coral;
+  font-size: 70px;
+  text-align: center;
+}
+
+#mae {
+  border: 10px black solid;
+  padding: 30px;
+  height: 1000px;
+}
+
+/* fixa o elemento em relação à janela já no carregamento da página
+ e remove o elemento do normal flow */
+.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+

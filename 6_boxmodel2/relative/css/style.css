@@ -1,0 +1,40 @@
+h1 {
+  text-align: center;
+}
+
+.box {
+  box-sizing: border-box;
+  width: 150px;
+  height: 150px;
+  padding: 40px;
+  border: black 5px solid;
+  background-color: coral;
+  font-size: 70px;
+  text-align: center;
+}
+
+.mae {
+  border: 10px coral solid;
+  padding: 30px;
+}
+
+/* posiciona o elemento relativamente a si mesmo
+sem removê-lo do normal flow (seu espaço inicial/padrão permanece desocupado)*/
+.relative {
+  position: relative;
+  bottom: 100px;
+  left: 100px;
+  z-index: 1;
+}
+
+/*
+#div3 {
+  position: relative;
+  bottom: 150px;
+  left: 150px;
+  z-index: 2;
+}
+*/
+
+
+

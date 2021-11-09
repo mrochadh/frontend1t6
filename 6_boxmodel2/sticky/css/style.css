@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  height: 2000px;
+}
+
+h1 {
+  padding: 100px 0;
+  text-align: center;
+}
+
+h2 {
+  padding: 20px;
+}
+
+h3 {
+  padding: 15px;
+  text-align: center;
+}
+
+p {
+  margin: 0 30px;
+}
+
+/* o elemento se fixa quando atingir a posição definida */
+nav {
+  background-color: coral;
+  padding: 30px;
+  position: sticky; /* grudento */
+  top: 0;
+}
+
