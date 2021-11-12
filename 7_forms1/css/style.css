@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap');
+
+* { /*regras iniciais para todos os elementos*/
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Red Hat Mono', monospace;
+}
+
+h1 {
+  margin: 20px;
+  color: blueviolet;
+  text-align: center;
+}
+
+fieldset {
+  margin: 30px;
+  border: 4px violet solid;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+legend {
+  color: blueviolet;
+  font-size: 20px;
+  padding: 10px;
+}
+
+div {
+  margin: 10px;
+}
+
+button {
+  padding: 15px;
+  margin: 10px;
+  background-color: blueviolet;
+  color: white;
+  font-size: 20px;
+  border: 0;
+  border-radius: 30px;
+}
+
+.buttons-div {
+  text-align: center;
+  /*float: right; /* os botões escorregam para a direita*/
+}

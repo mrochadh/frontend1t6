@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Formulários 1</title>
+</head>
+<body>
+
+  <h1>Formulários I</h1>
+
+  <form action="/cadastrar" name="cadastro-usuario" method="post">
+    <fieldset form="cadastro-usuario"> <!--um grupo/conjunto de campos-->
+      <legend>Dados Pessoais</legend>
+
+      <div>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" placeholder="Insira o nome">
+      </div>
+
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Insira o email">
+      </div>
+
+      <div>
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" id="senha" placeholder="Insira a senha">
+      </div>
+
+      <div>
+        <label for="idade">Idade:</label>
+        <input type="number" name="idade" id="idade" placeholder="Insira a idade">
+      </div>
+
+    </fieldset>
+
+    <fieldset form="cadastro-usuario"> <!--outro grupo/conjunto de campos-->
+      <legend>Inscrição</legend>
+
+      <div>
+        <label for="curso">Curso:</label>
+        <select name="curso" id="curso">
+          <option value="0">Selecione uma opção</option>
+          <option value="1">CTD</option>
+          <option value="2">Marketing</option>
+          <option value="3">Design</option>
+          <option value="4">Inteligência Artificial</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="minibio">Minibio:</label>
+        <textarea name="minibio" id="minibio" cols="50" rows="3" placeholder="Insira uma apresentação"></textarea>
+      </div>
+
+    </fieldset>
+
+    <div class="buttons-div">
+      <button type="reset">Limpar</button>
+      <button type="submit">Cadastrar</button>
+    </div>
+
+
+  </form>
+
+</body>
+</html>
