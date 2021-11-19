@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Lucida Sans';
+}
+
+body {
+  height: 1600px;
+  padding: 50px;
+}
+
+div {
+  height: 50px;
+}
+
+input {
+  width: 100px;
+  height: 35px;
+  border: 0;
+  border-bottom: 2px black solid;
+}
+
+input:hover {
+  border-bottom: 2px brown solid;
+  width: 150px;
+  height: 40px;
+}
+
+
+input:focus {
+  outline: none;
+  border-bottom: 2px brown solid;
+  background-color: rgba(165, 42, 42, 0.335);
+  width: 150px;
+}
+
+
+input:invalid {
+  background-color: rgba(255, 0, 0, 0.5); 
+}
+
+
+button {
+  background-color: brown;
+  border: 0;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+
+button:disabled {
+  background-color: gray;
+}
+
+a {
+  font-weight: 700;
+}
+
+a:link  {
+  /*color: aqua;*/
+}
+
+a:visited {
+  color: rgb(117, 134, 226);
+}
+
+a:hover  {
+  color: brown;
+}
+
+a:active {
+  color:rgb(17, 133, 7);
+}
+
+p:target {
+  background-color: rgba(250, 218, 39, 0.767);
+}
+
+
+
+/* enésimo elemento li*/
+li:nth-child(3n) {
+  background-color: rgba(0, 0, 255, 0.39);
+}
+
+
+
+
+
+
+#parag3::first-letter {
+  color: red;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+#parag3::after{
+  content: "Atenção nesse after aqui!";
+  color: red;
+}
+
+

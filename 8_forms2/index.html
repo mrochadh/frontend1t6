@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Formulários II</title>
+</head>
+<body>
+
+  <h1>Formulários II</h1>
+
+  <form action="/cadastrar" name="cadastro-usuario">
+    <fieldset form="cadastro-usuario"> <!--um conjunto/grupo de campos-->
+      <legend>Dados Pessoais</legend>
+
+      <div>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" placeholder="Insira o nome">
+      </div>
+
+      <div>
+        <label for="data">Data de nascimento:</label>
+        <input type="date" name="data" id="data" min="1980-01-01" max="1990-12-31" value="1988-02-26">
+      </div>
+      
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Insira o email"> 
+      </div>
+
+      <div>
+        <label for="pwd">Senha:</label>
+        <input type="password" name="pwd" id="pwd" placeholder="Insira a senha"> 
+      </div>
+
+      <div>
+        <label for="idade">Idade:</label>
+        <input type="number" name="idade" id="idade" placeholder="Insira a idade"> 
+      </div>
+
+      <div>
+        <p>Hobbies: </p>
+        <input type="checkbox" name="hobbies" id="hobmus"> <label for="hobmus">Música</label>
+        <input type="checkbox" name="hobbies" id="hobgame"> <label for="hobgame">Game</label>
+        <input type="checkbox" name="hobbies" id="hobesporte"> <label for="hobesporte">Esporte</label>
+      </div>
+
+    </fieldset>
+
+    <fieldset form="cadastro-usuario">
+      <legend>Inscrição</legend>
+
+      <div>
+        <label for="curso">Curso: </label>
+        <select name="curso" id="curso">
+          <option value="1">CTD</option>
+          <option value="2">Design</option>
+          <option value="3">Marketing</option>
+          <option value="4">IA</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="minibio">Minibio de apresentação: </label>
+        <textarea name="minibio" id="minibio" cols="50" rows="5" placeholder="Insira a minibio"></textarea>
+      </div>
+    </fieldset>
+
+    <fieldset form="cadastro-usuario">
+      <legend>Dados de pagamento</legend>
+
+      <div>
+        <!-- atributo checked: começa marcando a opção "pix"-->
+        <input type="radio" name="pagamento" id="pagpix" checked> <label for="pagpix">Pix</label>
+        <input type="radio" name="pagamento" id="pagcartao"> <label for="pagcartao">Cartão</label>
+        <input type="radio" name="pagamento" id="pagbol"> <label for="pagbol">Boleto</label>
+      </div>
+    </fieldset>
+
+    <div class="text-center">
+      <input type="checkbox" name="condicoes" id="condicoes"> <label for="condicoes">Li e aceito as condições.</label>
+    </div>
+
+    <div class="text-center">
+      <input type="checkbox" name="emails-promo" id="emails-promo"> <label for="emails-promo">Quero receber emails promocionais.</label>
+    </div>
+
+    <div class="text-center">
+      <button type="reset">Limpar</button>
+      <button type="submit">Cadastrar</button>
+    </div>
+
+  </form>
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
